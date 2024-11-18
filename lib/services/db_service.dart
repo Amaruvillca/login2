@@ -40,7 +40,7 @@ class DBService {
         fechaReg TEXT
       )
     ''');
-for (var i = 0; i < 30; i++) {
+for (var i = 0; i < 15; i++) {
   await db.insert('alumnos', {
       'rude': 'RUDE00$i',
       'ci': '123456$i',
